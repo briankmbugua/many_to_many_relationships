@@ -1,27 +1,23 @@
-# Ignore Python virtual environment files
-/venv
-
-# Ignore pipenv files
-Pipfile
-Pipfile.lock
-
-# Ignore local development server files
+# Directories
+venv/
+__pycache__/
 *.pyc
-/__pycache__
 
-# Ignore IDE-specific files and directories
-.vscode/
-.idea/
+# Environment variables (if you're using .env files)
+.env
 
-# Ignore logs
+# Logs
 *.log
 
-# Ignore miscellaneous files and directories
-.DS_Store
-*.swp
-*.swo
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
 
-
-# igonore miscallaneous files
-vitualone
-tableRelationships.sql
+# Dependency directories
+lib/
+libs/
+Library/
+bin/
+include/
+share/
